@@ -1,0 +1,7 @@
+.images{
+  @apply rounded-full overflow-hidden w-[50%] border-[5px] border-[#178474] select-none;
+}
+
+.button {
+  @apply px-3 py-2 rounded-md border-[3px] border-[#178474] shadow-[5px_5px_#178474] hover:shadow-[0px_0px_#178474] hover:bg-[#178474] text-[#178474] hover:text-white font-semibold duration-200 ease-in-out flex justify-center items-center gap-2 select-none;
+}

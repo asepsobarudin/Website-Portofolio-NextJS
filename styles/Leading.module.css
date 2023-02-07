@@ -1,0 +1,7 @@
+.container {
+  @apply h-full w-full flex justify-center items-center;
+}
+
+.buttonContent {
+  @apply w-fit px-4 py-2 mt-3 bg-white text-[#178474] rounded-full font-Lexend font-medium text-sm shadow-[5px_5px_#178474] hover:shadow-[0px_0px_black] hover:bg-[#178474] hover:text-white duration-200 ease-in-out border-[3px] border-[#178474] select-none;
+}
