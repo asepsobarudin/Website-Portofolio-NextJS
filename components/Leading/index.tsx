@@ -9,7 +9,7 @@ export default function Leanding() {
   return (
     <>
       <div className={`${Style.container}`}>
-        <div className="pt-16 md:pt-0 lg:pt-0 flex flex-col justify-center w-full h-full">
+        <div className="pt-20 md:pt-0 lg:pt-0 flex flex-col justify-center w-full h-full">
           <section className="flex flex-col justify-between h-[50%] w-full md:flex-row" id="leanding">
             <div className="flex flex-col justify-center items-start md:w-[50%] sm:w-full gap-1">
               <h1 className="font-Lexend w-full font-normal text-[#253239] text-base lg:text-[20px]">

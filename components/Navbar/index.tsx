@@ -7,7 +7,7 @@ import Item from "@/components/Navbar/item";
 import { AiOutlineHome } from "react-icons/ai";
 import { GiFlexibleLamp } from "react-icons/gi";
 import { RiProjectorLine } from "react-icons/ri";
-import ph1 from "@/public/next.svg";
+import Icons from "@/assets/images/icons.png";
 
 export default function Navbar() {
   const [hMenu, fnMenu] = useState(false);
@@ -27,8 +27,10 @@ export default function Navbar() {
         >
           <div className={`${hMenu && Style.navbarOn} ${Style.navbar}`}>
             <div className="flex justify-between items-center w-full">
-              <div className="select-none">
-                <Image src={ph1} width={100} height={100} alt="Logo" />
+
+              <div className="select-none flex justify-center items-center gap-2">
+                <Image src={Icons} alt="Logo" className="w-[50px]" />
+                <h1 className="text-2xl font-Lexend font-medium">Portofolio</h1>
               </div>
 
               <button
