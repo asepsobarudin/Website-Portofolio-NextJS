@@ -1,0 +1,8 @@
+.skils {
+  @apply w-full;
+  background-image: url(../assets/images/Image2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  min-height: 400px;
+}

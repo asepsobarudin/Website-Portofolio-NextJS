@@ -9,17 +9,16 @@ export default function Leanding() {
   return (
     <>
       <div className={`${Style.container}`}>
-        <div className="pt-16 md:pt-0 lg:pt-0 flex flex-col justify-between w-full h-full">
+        <div className="pt-16 md:pt-0 lg:pt-0 flex flex-col justify-center w-full h-full">
           <section className="flex flex-col justify-between h-[50%] w-full md:flex-row" id="leanding">
             <div className="flex flex-col justify-center items-start md:w-[50%] sm:w-full gap-1">
               <h1 className="font-Lexend w-full font-normal text-[#253239] text-base lg:text-[20px]">
                 Welcome my portofolio
               </h1>
-              <h1 className="text-2xl lg:text-[32px] font-Lexend font-semibold w-full leading-tight text-[#253239]">Hi! I’m web developer and UI/UX designer<div className="inline-block animate-wiggle trasform origin-bottom select-none">
-                ✋
+              <h1 className="text-2xl lg:text-[32px] font-Lexend font-semibold w-full leading-tight text-[#253239]">Hi! I’m Web Developer and Mobile Developer<div className="inline-block animate-wiggle trasform origin-bottom-right select-none">👋
               </div>
               </h1>
-              <button className={`${Style.buttonContent}`}>CONTECT US</button>
+              <button className={`${Style.buttonContent} shadow-[5px_5px_#178474] hover:shadow-[0px_0px_black] hover:bg-[#178474] hover:text-white`}>CONTECT US</button>
             </div>
 
             <div className="flex w-full md:w-[50%] justify-center items-center pt-20">
