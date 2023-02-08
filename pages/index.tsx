@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Leanding from "@/components/Leading";
 import About from "@/components/About";
 import Skils from "@/components/Skils";
+import Project from "@/components/Project";
 
 export default function Home() {
   // Back To Top
@@ -41,6 +42,7 @@ export default function Home() {
             <Leanding />
             <About />
             <Skils />
+            <Project />
           </React.Fragment>
         </div>
 

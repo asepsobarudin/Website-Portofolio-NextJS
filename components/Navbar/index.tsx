@@ -62,7 +62,7 @@ export default function Navbar() {
             />
             <Item
               title="Project"
-              url="#"
+              url="project"
               icon={<RiProjectorLine />}
               fnMenu={fnMenu}
             />
