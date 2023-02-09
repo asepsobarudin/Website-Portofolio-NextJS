@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
+import Style from "@/styles/Home.module.css"
 import { BsArrowUpSquare } from "react-icons/bs";
 import Navbar from "@/components/Navbar";
 import Leanding from "@/components/Leading";
 import About from "@/components/About";
 import Skils from "@/components/Skils";
 import Project from "@/components/Project";
+import Services from "@/components/Services";
 
 export default function Home() {
   // Back To Top
@@ -35,7 +37,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="./icons.png" />
       </Head>
-      <main className="scroll-smooth flex justify-center items-center pb-10">
+      <main className={`scroll-smooth flex justify-center items-center pb-10`}>
         <Navbar />
         <div className="container w-full px-4">
           <React.Fragment>
@@ -43,6 +45,7 @@ export default function Home() {
             <About />
             <Skils />
             <Project />
+            <Services />
           </React.Fragment>
         </div>
 

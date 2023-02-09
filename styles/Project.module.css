@@ -1,8 +1,0 @@
-.project {
-  @apply w-full p-4;
-  background-image: url(../assets/images/Image1.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
-  min-height: 400px;
-}

@@ -3,12 +3,12 @@
 }
 
 .navbar {
-  @apply flex w-full flex-col justify-between items-center bg-white py-4 px-2 md:px-4 lg:px-10 relative z-10;
+  @apply flex w-full flex-col justify-between items-center bg-white py-4 relative z-10;
 }
 
 /* Hamburger Buton */
 .hamburger {
-  @apply w-6 h-6 rounded-md flex flex-col gap-2 justify-center items-center relative cursor-pointer;
+  @apply w-6 h-6 rounded-md flex-col gap-2 justify-center items-center relative cursor-pointer;
 }
 
 .hamburger div {
@@ -31,10 +31,11 @@
 .hamburgerOn div:nth-child(3) {
   @apply w-1/2 absolute bottom-0 left-0 duration-200 ease-in-out;
 }
+
 /* End Hamburger Buton */
 
 .menu {
-  @apply flex flex-col bg-white gap-2 w-full md:w-[30%] lg:w-[20%] px-2 mt-2 md:mx-2 py-2 rounded-md;
+  @apply flex flex-col bg-white gap-2 px-2 mt-2 py-2 rounded-md;
 }
 
 .menuOf {
@@ -46,9 +47,9 @@
 }
 
 .menuNavbar {
-  @apply font-semibold bg-slate-200 px-3 py-3 rounded-md text-[#178474] hover:bg-[#178474] hover:text-white duration-200 ease-in-out w-full flex justify-center items-center gap-2 select-none;
+  @apply font-semibold px-3 py-3 rounded-md text-[#178474] duration-200 ease-in-out w-full flex justify-center items-center gap-2 select-none;
 }
 
-.activeItem{
+.activeItem {
   @apply bg-[#178474] text-white;
 }

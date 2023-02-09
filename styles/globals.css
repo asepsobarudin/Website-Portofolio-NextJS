@@ -4,3 +4,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 767px) {
+  :root {
+    --width_background: 100%;
+  }
+}
+
+@media (min-width: 767px) {
+  :root {
+    --width_background: auto 100%;
+  }
+}

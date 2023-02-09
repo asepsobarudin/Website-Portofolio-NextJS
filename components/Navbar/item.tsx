@@ -13,7 +13,7 @@ export default function Item(props: ItemProps) {
   return (
     <>
       <Link
-        className={Style.menuNavbar}
+        className={`${Style.menuNavbar} hover:bg-[#178474] hover:text-white`}
         onClick={() => fnMenu(false)}
         activeClass={Style.activeItem}
         to={url}

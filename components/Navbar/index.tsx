@@ -25,7 +25,7 @@ export default function Navbar() {
           className={`${hMenu && Style.containerOn
             } w-full flex flex-col justify-center items-end`}
         >
-          <div className={`${hMenu && Style.navbarOn} ${Style.navbar}`}>
+          <div className={`${hMenu && Style.navbarOn} ${Style.navbar} px-2 md:px-4 lg:px-10`}>
             <div className="flex justify-between items-center w-full">
 
               <div className="select-none flex justify-center items-center gap-2">
@@ -33,9 +33,30 @@ export default function Navbar() {
                 <h1 className="text-2xl font-Lexend font-medium">Portofolio</h1>
               </div>
 
+              <div className="hidden md:flex gap-3 justify-center items-center">
+                <Item
+                  title="Home"
+                  url="leanding"
+                  icon={<AiOutlineHome />}
+                  fnMenu={fnMenu}
+                />
+                <Item
+                  title="Skils"
+                  url="skils"
+                  icon={<GiFlexibleLamp />}
+                  fnMenu={fnMenu}
+                />
+                <Item
+                  title="Project"
+                  url="project"
+                  icon={<RiProjectorLine />}
+                  fnMenu={fnMenu}
+                />
+              </div>
+
               <button
                 className={`${hMenu && Style.hamburgerOn} ${Style.hamburger
-                  } group`}
+                  } group flex md:hidden`}
                 onClick={() => fnMenu(!hMenu)}
               >
                 <div className="group-hover:bg-sky-600"></div>
@@ -46,7 +67,7 @@ export default function Navbar() {
           </div>
 
           <div
-            className={`${hMenu ? Style.menuOn : Style.menuOf} ${Style.menu}`}
+            className={`${hMenu ? Style.menuOn : Style.menuOf} ${Style.menu} w-full md:w-[30%] lg:w-[20%] md:mx-2`}
           >
             <Item
               title="Home"
