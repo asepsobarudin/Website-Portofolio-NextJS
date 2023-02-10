@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './card._services'
+import Card from './cardServices'
 
 import { BsGlobe2 } from "react-icons/bs"
 import { FiFigma } from "react-icons/fi"

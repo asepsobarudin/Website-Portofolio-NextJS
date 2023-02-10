@@ -1,7 +1,6 @@
 import React from 'react'
 
-import Card from './card_project'
-import Style from "@/styles/Project.module.css"
+import Card from './cardProject'
 import Project1 from "@/assets/images/Project1.jpg"
 import Project2 from "@/assets/images/Project2.jpg"
 

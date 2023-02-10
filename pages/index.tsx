@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import Style from "@/styles/Home.module.css"
 import { BsArrowUpSquare } from "react-icons/bs";
 import Navbar from "@/components/Navbar";
 import Leanding from "@/components/Leading";
 import About from "@/components/About";
 import Skils from "@/components/Skils";
 import Project from "@/components/Project";
-import Services from "@/components/Services";
 
-export default function Home() {
+export default function Index() {
   // Back To Top
   const [showButton, setShowButton] = useState(false);
   useEffect(() => {
@@ -45,7 +43,6 @@ export default function Home() {
             <About />
             <Skils />
             <Project />
-            <Services />
           </React.Fragment>
         </div>
 
